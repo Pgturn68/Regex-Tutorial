@@ -66,6 +66,7 @@ I do not one is being used here in this Email example.
 To use a special character as if it were a regular one attach a \ to it.
 Eample \d, \., ect... this is called Escaping the character.
 
-Authored by Paul Turner. I am a videographer/graphic artist who is aspiring to add front end developer to my arsenal.
 
-Github link : https://github.com/Pgturn68/Regex-Tutorial
+# Authored by Paul Turner. I am a videographer/graphic artist who is aspiring to add front end developer to my arsenal.
+
+# Github link : https://github.com/Pgturn68/Regex-Tutorial
