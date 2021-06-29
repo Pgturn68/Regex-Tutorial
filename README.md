@@ -46,8 +46,9 @@ The next set ([\da-z\.-]+) represents the email domain and the last ([a-z\.]{2,6
 Bracket expressions show a set of characters that will be matched within the []. Any single character within  the brackets will match.
 Being shown here is  the first set of brackets [a-z0-9_\.-] this is displaying case sensitive letters from a-z as well as numbers from 0-9 
 and a hypen and period.
-The second set of brackets [\da-z\.-] is displaying all digits and case sensitive from a-z along with the hypen and period.
-The third set of brackets contain [a-z\.] displaying case sensitive characters and a period.
+The second set of brackets [\da-z\.-] is displaying all digits and case sensitive from a-z along with the hypen and period and the \ acting 
+as the escape character in front of the d.
+The third set of brackets contain [a-z\.] displaying case sensitive characters which means anything from the letter a to the letter z, and a period.
 
 ### Character Classes
 A character class is the name that matches any given symbol from a certain set.
