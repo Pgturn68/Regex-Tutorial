@@ -70,4 +70,5 @@ Eample \d, \., ect... this is called Escaping the character.
 ### Authored by: Paul Turner. 
 I am a videographer/graphic artist who is aspiring to add front end developer to my arsenal.
 
-### Github link : https://github.com/Pgturn68/Regex-Tutorial
+### Github link: https://github.com/Pgturn68/Regex-Tutorial
+### Gist link: https://gist.github.com/Pgturn68/d9f108adf8950e8b36e9f5c143d92b45
