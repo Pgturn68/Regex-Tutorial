@@ -36,25 +36,28 @@ In this example we are seeing the + symbol which tells us there is another seque
 2,6 are being used as a greedy quantifier as intergers, so the Regex tries to match between a min of 2 characters to 4 characters.
 
 ### Grouping Constructs
-Grouping is a way of handling multiple characters into a single unit, they are made by placing the characters inside a set of ().
+Grouping is a way of handling multiple characters into a single unit, they are made by placing the characters inside a set of ()
+known as a subexpression which look for exact matches as opposed to bracket expressions.
 The multiple characters captured here in this example are ([a-z0-9_\.-]+) which is the email username.
 The next set ([\da-z\.-]+) represents the email domain and the last ([a-z\.]{2,6}) would be the captured .com
 
 
 ### Bracket Expressions
-Bracket expressions can be displayed as a matching expression or a non-matching expression and is made of one or more matching expressions.
-Bracket expressions show a set of characters that will be matched within the [ ], any single character within  the brackets will match.
+Bracket expressions show a set of characters that will be matched within the []. Any single character within  the brackets will match.
 Being shown here is  the first set of brackets [a-z0-9_\.-] this is displaying case sensitive letters from a-z as well as numbers from 0-9 
 and a hypen and period.
-The second set of brackets [\da-z\.-] is displaying all digits and characters from a-z along with the hypen and period.
+The second set of brackets [\da-z\.-] is displaying all digits and case sensitive from a-z along with the hypen and period.
 The third set of brackets contain [a-z\.] displaying case sensitive characters and a period.
 
 ### Character Classes
 A character class is the name that matches any given symbol from a certain set.
 The character class can also find and remove anything that is not a number.
-\d- is being used in the matching Email example as a digit from 0-9.
+\d- is being used in the matching Email example which is basically the same as a bracket expression [0-9].
 
 ### The OR Operator
+The OR operator searches for the characters OR the special characters in the pattern,
+you can also use this outside the bracket expression. An expample of using the OR operation
+would be the hyphen and the underscore as seen here a-z0-9_ from the Email example.
 
 
 ### Flags
@@ -64,7 +67,8 @@ I do not one is being used here in this Email example.
 
 ### Character Escapes
 To use a special character as if it were a regular one attach a \ to it.
-Eample \d, \., ect... this is called Escaping the character.
+Eample \d, \., ect... the \ negates the character in front of it from being
+taken for what it literally is.
 
 
 ### Authored by: Paul Turner. 
